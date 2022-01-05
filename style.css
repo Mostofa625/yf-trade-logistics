@@ -1,0 +1,35 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.half-width{
+    width: 100%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 20%;
+}    
+img {
+    display: block;
+    margin-left: 1;
+    margin-right: auto;
+    width: 20%;
+}
+h1{
+    font-size: 40px;
+    text-align: end;
+    padding-right: 5%;
+    padding-top: 2%;
+    color: red;
+}
+.fexible-container{
+    display: flex;
+}
+.Container-images{
+    width: 500%;
+}
+#box{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
